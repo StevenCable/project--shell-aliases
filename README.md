@@ -52,4 +52,10 @@ curl -u '[username]:[password]' https://api.github.com/user/repos -d "$json"
 | alias | action |
 |-----|-----|
 | s | git status |
-| c [message] | git commit with `message` |
+| c [message] | git commit -m `[message]` |
+| cl | git clone |
+| p | git pull |
+| u | git push |
+| di | git diff |
+| ch | git checkout |
+| chm | git checkout master |
